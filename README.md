@@ -1,25 +1,25 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/fadhil-maker/fadhil-maker/mainprofile-photo.jpg" width="130" style="border-radius:50%" alt="Muhammed Fadhil EH"/>
 
-  # Muhammed Fadhil EH
+# Muhammed Fadhil EH
 
-  **B.Tech Computer Science & Business Systems Student &nbsp;|&nbsp; Python/Django Developer**
+**B.Tech Computer Science & Business Systems Student &nbsp;|&nbsp; Python/Django Developer**
 
-  📍 Elthuruth, Kerala, India &nbsp;·&nbsp; 📧 [Fadhileh12@gmail.com](mailto:Fadhileh12@gmail.com) &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/fadhileh) &nbsp;·&nbsp; 🌐 [Portfolio](https://muhammedfadhil.vercel.app)
+📍 Elthuruth, Kerala, India &nbsp;·&nbsp; 📧 [Fadhileh12@gmail.com](mailto:Fadhileh12@gmail.com) &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/fadhileh) &nbsp;·&nbsp; 🌐 [Portfolio](https://muhammedfadhil.vercel.app)
 
-  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-  ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-  ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+
 </div>
 
 ---
 
 ### About
 
-Motivated Computer Science student with hands-on experience in full-stack development (Python/Django) and a growing background in data science and machine learning. I enjoy turning manual, inefficient processes into clean, working software.
+I'm a Computer Science student who builds practical, full-stack solutions with Python and Django. My focus is on replacing manual, error-prone workflows with reliable software — most recently an appointment booking platform that cut a shop's wait times through automated scheduling. I'm currently deepening my skills in data science and machine learning to bring an analytical edge to the products I build.
 
 ### Skills
 
@@ -34,14 +34,14 @@ Motivated Computer Science student with hands-on experience in full-stack develo
 
 **Cyborg AI Gen Automation** — Intern, Data Science & Machine Learning
 - Implemented predictive modeling techniques on real-world datasets
-- Performed data analysis to support model development and insight generation
+- Performed data analysis to support model development and generate actionable insights
 
 ### Projects
 
 **Appointment Booking System — ShanuDigiCore**
 `Python` · `Django` · `HTML` · `CSS` · `JavaScript`
-- Built a customer-facing booking platform for remote scheduling, removing the need for in-person visits
-- Streamlined the booking workflow, improving operational efficiency and reducing shop wait times
+- Built a customer-facing booking platform enabling remote scheduling and eliminating the need for in-person visits
+- Automated the booking workflow, improving operational efficiency and cutting shop wait times
 
 ### Education
 
@@ -57,4 +57,8 @@ Motivated Computer Science student with hands-on experience in full-stack develo
 
 ---
 
+<div align="center">
+
 <sub>Currently learning: Data Science · Machine Learning · Advanced Django</sub>
+
+</div>
