@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/fadhil-maker/fadhil-maker/main/profile-photo.jpg" width="130" style="border-radius:50%" alt="Muhammed Fadhil EH"/>
+  <img src="https://raw.githubusercontent.com/fadhil-maker/fadhil-maker/mainprofile-photo (1).jpg" width="130" style="border-radius:50%" alt="Muhammed Fadhil EH"/>
 
   # Muhammed Fadhil EH
 
