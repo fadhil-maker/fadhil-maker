@@ -1,8 +1,19 @@
-# Muhammed Fadhil EH
+<div align="center">
+  <img src="https://raw.githubusercontent.com/fadhil-maker/fadhil-maker/main/profile-photo.jpg" width="130" style="border-radius:50%" alt="Muhammed Fadhil EH"/>
 
-B.Tech Computer Science & Business Systems student | Python/Django Developer
+  # Muhammed Fadhil EH
 
-📍 Elthuruth, Kerala, India&nbsp;&nbsp;|&nbsp;&nbsp;📧 [Fadhileh12@gmail.com](mailto:Fadhileh12@gmail.com)&nbsp;&nbsp;|&nbsp;&nbsp;🔗 [LinkedIn](https://www.linkedin.com/in/fadhileh)&nbsp;&nbsp;|&nbsp;&nbsp;🌐 [Portfolio](https://muhammedfadhil.vercel.app)
+  **B.Tech Computer Science & Business Systems Student &nbsp;|&nbsp; Python/Django Developer**
+
+  📍 Elthuruth, Kerala, India &nbsp;·&nbsp; 📧 [Fadhileh12@gmail.com](mailto:Fadhileh12@gmail.com) &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/fadhileh) &nbsp;·&nbsp; 🌐 [Portfolio](https://muhammedfadhil.vercel.app)
+
+  ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+  ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
+  ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+  ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+  ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+  ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+</div>
 
 ---
 
