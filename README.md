@@ -4,7 +4,7 @@
 
 **B.Tech Computer Science & Business Systems Student &nbsp;|&nbsp; Python/Django Developer**
 
-📍 Elthuruth, Kerala, India &nbsp;·&nbsp; 📧 [Fadhileh12@gmail.com](mailto:Fadhileh12@gmail.com) &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/fadhileh) &nbsp;·&nbsp; 🌐 [Portfolio](https://muhammedfadhil.vercel.app)
+📍 Thrissur, Kerala, India &nbsp;·&nbsp; 📧 [Fadhileh12@gmail.com](mailto:Fadhileh12@gmail.com) &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/fadhileh) &nbsp;·&nbsp; 🌐 [Portfolio](https://muhammedfadhil.vercel.app)
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
