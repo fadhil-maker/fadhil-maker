@@ -1,4 +1,4 @@
-![Uploading banner.svg…]()
+<img width="1280" height="740" alt="banner" src="https://github.com/user-attachments/assets/988120fc-fefc-4efb-9b9c-c79bcfc524ad" />
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 740" width="1280" height="740">
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
