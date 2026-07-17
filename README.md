@@ -1,91 +1,92 @@
-[Uploading README.md…]()
+[README.md](https://github.com/user-attachments/files/30132974/README.md)
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=F59E0B&center=true&vCenter=true&random=false&width=600&lines=Hey+%F0%9F%91%8B%2C+I'm+Muhammed+Fadhil;Full-Stack+Developer;Python+%7C+Django+Specialist;Building+things+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=F59E0B&center=true&vCenter=true&random=false&width=850&lines=Hey+%F0%9F%91%8B%2C+I'm+Muhammed+Fadhil;Full-Stack+Developer;Python+%7C+Django+Specialist;Building+things+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
 </h1>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1">
-    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1">
-    <img alt="Animated GitHub Banner" src="banner.svg?v=1" width="1280">
+    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=2">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=2">
+    <img alt="Animated GitHub Banner" src="banner.svg?v=2" width="1280">
   </picture>
 </p>
 
-<p align="center">
-  <img alt="Swinging Lanyard ID Badge" src="lanyard.svg?v=1" width="300">
-</p>
+<br/>
 
----
+<table width="100%" style="border: none;">
+  <tr style="border: none;">
+    <td width="35%" align="center" style="border: none;">
+      <img alt="Swinging Lanyard ID Badge" src="lanyard.svg?v=2" width="280">
+    </td>
+    <td width="65%" valign="top" style="border: none;">
+      <h3>🚀 Key Projects</h3>
+      <table width="100%">
+        <tr>
+          <th align="left">Project</th>
+          <th align="left">Tech Stack</th>
+          <th align="center">Status</th>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/fadhil-maker/pharma"><b>Pharma Project</b></a></td>
+          <td><code>Django</code> <code>JS</code></td>
+          <td align="center">⭐ 25</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/fadhil-maker/FinEdge"><b>FinEdge (ACS)</b></a></td>
+          <td><code>Python</code> <code>Edge-ML</code></td>
+          <td align="center">⭐ 12</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/fadhil-maker/ShanuDigiCore"><b>ShanuDigiCore</b></a></td>
+          <td><code>Django</code> <code>HTML/CSS</code></td>
+          <td align="center">⭐ 8</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/fadhil-maker/arcade"><b>Arcade Modules</b></a></td>
+          <td><code>JS</code> <code>Physics</code></td>
+          <td align="center">⭐ 5</td>
+        </tr>
+        <tr>
+          <td><a href="https://github.com/fadhil-maker/portfolio"><b>Personal Portfolio</b></a></td>
+          <td><code>React</code> <code>Tailwind</code></td>
+          <td align="center">⭐ 4</td>
+        </tr>
+      </table>
+      <br/>
+      <p>💡 <i>"Turning ideas into real world solutions."</i></p>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<h3 align="center">📊 GitHub Stats & Graphs</h3>
 
 <p align="center">
-  <img src="stats.svg?v=1" alt="GitHub Stats" height="180" />
+  <img src="stats.svg?v=2" alt="GitHub Stats" height="180" />
   &nbsp;&nbsp;
-  <img src="langs.svg?v=1" alt="Top Languages" height="180" />
+  <img src="langs.svg?v=2" alt="Top Languages" height="180" />
 </p>
 
 <p align="center">
-  <img src="trophies.svg?v=1" alt="GitHub Trophies" width="800" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fadhil-maker&theme=tokyonight&hide_border=true&background=12102E&ring=F59E0B&fire=F59E0B&currStreakLabel=F59E0B&sideLabels=A855F7&dates=8B8BA7" alt="GitHub Streak" />
 </p>
 
----
+<br/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" alt="Technologist" width="28" /> &nbsp;About Me
-
-```yaml
-name: Muhammed Fadhil EH
-location: India
-education: B.Tech in Computer Science with Business Systems (2023–2027)
-current_focus: Global Drug Interaction & Side Effect Tracking System
-portfolio: Muhammedfadhil.vercel.app
-```
-
-- 🎓 Pursuing **B.Tech in Computer Science** with Business Systems at JCT College of Engineering
-- 💻 Specialist in **Full-Stack Web Development**: Python (Django), React, HTML5, CSS3 & JavaScript
-- ⚙️ Experienced in managing **web infrastructure** — VPS, Nginx, Cloudflare, Docker
-- 🧠 Former **Data Science & Machine Learning** Intern
-- 🚀 Currently building a **Global Drug Interaction & Side Effect Tracking System**
-- 🌐 Check out my portfolio → [**Muhammedfadhil.vercel.app**](https://Muhammedfadhil.vercel.app)
-
----
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Tools" width="28" /> &nbsp;Tech Stack
+<h3 align="center">📈 Contribution Graph</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-F59E0B?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-7C3AED?style=for-the-badge&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/JavaScript-F59E0B?style=for-the-badge&logo=javascript&logoColor=white" />
-  <img src="https://img.shields.io/badge/React-7C3AED?style=for-the-badge&logo=react&logoColor=white" />
-  <img src="https://img.shields.io/badge/Node.js-F59E0B?style=for-the-badge&logo=node.js&logoColor=white" />
-  <img src="https://img.shields.io/badge/HTML5-7C3AED?style=for-the-badge&logo=html5&logoColor=white" />
-  <img src="https://img.shields.io/badge/CSS3-F59E0B?style=for-the-badge&logo=css3&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tailwind_CSS-7C3AED?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=fadhil-maker&bg_color=12102E&color=F59E0B&line=F59E0B&point=FFFFFF&area=true&hide_border=true" alt="Activity Graph" width="900" />
 </p>
+
 <p align="center">
-  <img src="https://img.shields.io/badge/PostgreSQL-F59E0B?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-7C3AED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-F59E0B?style=for-the-badge&logo=nginx&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-7C3AED?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F59E0B?style=for-the-badge&logo=git&logoColor=white" />
-  <img src="https://img.shields.io/badge/Cloudflare-7C3AED?style=for-the-badge&logo=cloudflare&logoColor=white" />
-  <img src="https://img.shields.io/badge/Figma-F59E0B?style=for-the-badge&logo=figma&logoColor=white" />
-  <img src="https://img.shields.io/badge/Vercel-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img src="trophies.svg?v=2" alt="GitHub Trophies" width="800" />
 </p>
 
----
+<br/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Rocket.png" alt="Rocket" width="28" /> &nbsp;Key Projects
-
-| Project | Stack | Description |
-|:--------|:------|:------------|
-| [**Pharma Project**](https://github.com/fadhil-maker/pharma) | Django, Tesseract.js, openFDA APIs | Platform for Pharm.D professionals. Decoupled architecture for private OCR scanning, timeline analysis, and high-risk drug combo override. |
-| [**FinEdge (ACS)**](https://github.com/fadhil-maker/FinEdge) | Python, Django, PostgreSQL, XGBoost | Alternative Credit Scoring via Federated Edge-ML. Zero-Knowledge architecture ensures data privacy on smartphones for credit-invisible individuals. |
-| [**ShanuDigiCore**](https://github.com/fadhil-maker/ShanuDigiCore) | Python, Django, HTML/CSS, JS | Appointment Booking System with automated scheduling to eliminate wait times and improve operational efficiency. |
-| [**Arcade Modules**](https://github.com/fadhil-maker/arcade) | JS, State Logic, Physics Loops | Interactive simulators (Aether, Chroma) and neon canvas shooters ("Typing Defender"). |
-| [**Portfolio**](https://github.com/fadhil-maker/portfolio) | React, Tailwind CSS, Vercel | Personal portfolio website showcasing projects and skills with modern dark UI. |
-
----
-
-## 🐍 Contribution Snake
+<h3 align="center">🐍 Watch the snake eat my contributions</h3>
 
 <p align="center">
   <picture>
@@ -95,21 +96,9 @@ portfolio: Muhammedfadhil.vercel.app
   </picture>
 </p>
 
----
+<br/>
 
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Chart%20Increasing.png" alt="Chart" width="28" /> &nbsp;Activity
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/F59E0B/fadhil-maker" alt="GitHub Contribution Chart" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=fadhil-maker&theme=tokyonight&hide_border=true&background=0D0B20&ring=F59E0B&fire=F59E0B&currStreakLabel=F59E0B&sideLabels=A855F7&dates=8B8BA7" alt="GitHub Streak" />
-</p>
-
----
-
-## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Handshake.png" alt="Handshake" width="28" /> &nbsp;Let's Connect
+<h3 align="center">🤝 Let's Connect</h3>
 
 <p align="center">
   <a href="mailto:Fadhileh12@gmail.com">
@@ -126,10 +115,12 @@ portfolio: Muhammedfadhil.vercel.app
   </a>
 </p>
 
----
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=fadhil-maker&style=flat-square&color=7C3AED&label=PROFILE+VIEWS" alt="Profile Views" />
+</p>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=fadhil-maker&style=for-the-badge&color=7C3AED&label=PROFILE+VIEWS" alt="Profile Views" />
+  <i>⭐ Always learning, always building. 🚀</i>
 </p>
 
 <p align="center">
