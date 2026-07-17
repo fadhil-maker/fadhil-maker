@@ -10,6 +10,10 @@
   </picture>
 </p>
 
+<p align="center">
+  <img alt="Animated Developer ID Card" src="id-card.svg?v=1" width="420">
+</p>
+
 <br/>
 
 <table width="100%" style="border: none;">
