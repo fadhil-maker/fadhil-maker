@@ -1,179 +1,68 @@
 <svg width="1280" height="740" viewBox="0 0 1280 740" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Fira+Code&amp;family=Satisfy&amp;display=swap');
-      .terminal-text { font-family: 'Fira+Code', monospace; font-size: 20px; fill: #374151; white-space: pre; }
-      .name-script { font-family: 'Satisfy', cursive; font-size: 64px; fill: none; stroke-width: 2; stroke: url(#nameGradientLight); visibility: hidden; }
-      .role-typing { font-family: 'Fira+Code', monospace; font-size: 28px; fill: #DB2777; visibility: hidden; }
-      .pill-text { font-family: 'Fira+Code', monospace; font-size: 16px; fill: #FFFFFF; font-weight: 600; text-anchor: middle; }
-      .tagline-text { font-family: 'Satisfy', cursive; font-size: 32px; fill: #6B7280; text-anchor: middle; opacity: 0; }
-      .about-me-text { font-family: 'Fira+Code', monospace; font-size: 18px; fill: #6B7280; white-space: pre; opacity: 0; }
-      .stats-text { font-family: 'Fira+Code', monospace; font-size: 18px; fill: #1F2937; font-weight: bold; text-anchor: end; }
-      .code-snippet-text { font-family: 'Fira+Code', monospace; font-size: 16px; fill: #1D4ED8; white-space: pre; visibility: hidden; }
-      .neon-script { font-family: 'Satisfy', cursive; font-size: 40px; fill: #EC4899; text-anchor: middle; }
+      @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&amp;family=Rajdhani:wght@500;700&amp;family=Fira+Code&amp;display=swap');
+      .title-text { font-family: 'Orbitron', sans-serif; font-size: 60px; fill: #0F172A; font-weight: bold; }
+      .role-text { font-family: 'Rajdhani', sans-serif; font-size: 32px; fill: #0284C7; font-weight: bold; letter-spacing: 2px; }
+      .mono-text { font-family: 'Fira+Code', monospace; font-size: 18px; fill: #64748B; }
+      .highlight { fill: #0284C7; font-weight: bold;}
+      .skill-pill { font-family: 'Rajdhani', sans-serif; font-size: 20px; fill: #0F172A; font-weight: 600; text-anchor: middle; letter-spacing: 1px; }
     </style>
-    <linearGradient id="nameGradientLight" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#DB2777" />
-      <stop offset="100%" stop-color="#7E22CE" />
-    </linearGradient>
-    <mask id="hologramRevealLight">
-      <rect x="0" y="0" width="1280" height="740" fill="white"/>
-      <rect x="0" y="0" width="1280" height="0" fill="black">
-        <animate attributeName="height" from="0" to="740" dur="1s" begin="0s" fill="freeze" keyTimes="0;1" keySplines="0.4 0 0.2 1" calcMode="spline" />
-      </rect>
-    </mask>
   </defs>
 
-  <rect width="1280" height="740" rx="30" fill="#FFFFFF" stroke="#E5E7EB" stroke-width="2"/>
-  <rect x="10" y="10" width="1260" height="720" rx="20" fill="#F9FAFB"/>
+  <!-- Background -->
+  <rect width="1280" height="740" rx="20" fill="#F8FAFC" stroke="#E2E8F0" stroke-width="4"/>
 
-  <!-- Character Image: MUST BE PNG OR JPEG BASE64, NOT WEBP -->
-  <image x="0" y="0" width="1280" height="740" mask="url(#hologramRevealLight)" xlink:href="data:image/png;base64,PASTE_YOUR_PNG_BASE64_HERE" />
-
-  <!-- Hologram formation glowing line -->
-  <rect x="0" y="0" width="1280" height="10" fill="#DB2777" opacity="0.8">
-    <animate attributeName="y" from="0" to="740" dur="1s" begin="0s" fill="freeze" />
-    <animate attributeName="opacity" values="0.8;0" dur="1s" begin="0.1s" fill="freeze" />
-  </rect>
-
-  <!-- Continuous scanner line -->
-  <rect x="0" y="-50" width="1280" height="50" opacity="0.15">
-    <fill>
-      <linearGradient id="scannerGradientLight" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0" stop-color="#A855F7" stop-opacity="0"/>
-        <stop offset="0.5" stop-color="#EC4899"/>
-        <stop offset="1" stop-color="#A855F7" stop-opacity="0"/>
-      </linearGradient>
-    </fill>
-    <animate attributeName="y" from="-50" to="790" dur="3.5s" begin="1s" repeatCount="indefinite" />
-  </rect>
-
-  <!-- Terminal Typing -->
-  <text x="30" y="50" class="terminal-text">
-    <tspan class="terminal-prompt" fill="#6B7280">user@dev:~$</tspan>
-    <tspan id="catCommandLight" visibility="hidden">cat README.md</tspan>
-  </text>
-  <rect x="30" y="55" width="2" height="18" fill="#DB2777">
-    <animate attributeName="opacity" values="0;1;0" dur="0.8s" repeatCount="indefinite" begin="catCommandLight.end+0.5s"/>
-    <animate attributeName="x" values="30;32;180" dur="0.5s" begin="0.5s" fill="freeze" calcMode="discrete"/>
-  </rect>
-  <set attributeName="visibility" from="hidden" to="visible" begin="0.5s" xlink:href="#catCommandLight"/>
-
-  <!-- Script Name Reveal -->
-  <text x="30" y="150" class="name-script" id="nameRevealerLight">
-    <tspan>M</tspan><tspan>u</tspan><tspan>h</tspan><tspan>a</tspan><tspan>m</tspan><tspan>m</tspan><tspan>e</tspan><tspan>d</tspan> <tspan>F</tspan><tspan>a</tspan><tspan>d</tspan><tspan>h</tspan><tspan>i</tspan><tspan>l</tspan>
-    <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="catCommandLight.end+0.8s" fill="freeze" xlink:href="#nameRevealerLight"/>
-    <animate attributeName="stroke-dasharray" from="0,1000" to="1000,0" dur="2s" begin="catCommandLight.end+0.8s" fill="freeze" />
-  </text>
-
-  <!-- Cycling Role Titles -->
-  <g transform="translate(30, 200)">
-    <text x="0" y="0" class="role-typing" id="role1Light">Full-Stack Web Developer
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.1s" begin="nameRevealerLight.end+1s" fill="freeze" />
-      <animate attributeName="visibility" from="visible" to="hidden" dur="0.1s" begin="nameRevealerLight.end+3s" fill="freeze" />
-    </text>
-    <text x="0" y="0" class="role-typing" id="role2Light">Python &amp; Django Specialist
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.1s" begin="role1Light.end" fill="freeze" />
-      <animate attributeName="visibility" from="visible" to="hidden" dur="0.1s" begin="role1Light.end+2s" fill="freeze" />
-    </text>
-    <text x="0" y="0" class="role-typing" id="role3Light">Data Science Enthusiast
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.1s" begin="role2Light.end" fill="freeze" />
-    </text>
+  <!-- Static Grid Background -->
+  <g opacity="0.4" stroke="#E0F2FE" stroke-width="2">
+    <path d="M0 100 H1280 M0 200 H1280 M0 300 H1280 M0 400 H1280 M0 500 H1280 M0 600 H1280 M0 700 H1280" />
+    <path d="M100 0 V740 M200 0 V740 M300 0 V740 M400 0 V740 M500 0 V740 M600 0 V740 M700 0 V740 M800 0 V740 M900 0 V740 M1000 0 V740 M1100 0 V740 M1200 0 V740" />
   </g>
 
-  <!-- Quote Box & Tagline -->
-  <g transform="translate(640, 350)">
-    <rect x="-300" y="-80" width="600" height="160" rx="15" fill="#FFFFFF" stroke="#E5E7EB" opacity="0.7">
-      <animate attributeName="opacity" from="0" to="0.7" dur="0.5s" begin="role3Light.end+0.5s" fill="freeze" />
-    </rect>
-    <text x="0" y="-10" class="tagline-text">"Let's build scalable dreams with Python."
-      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="role3Light.end+0.5s" fill="freeze" />
-    </text>
-  </g>
+  <!-- IMPORTANT: AVATAR IMAGE CODE GOES HERE -->
+  <image x="750" y="50" width="500" height="640" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" opacity="0">
+    <animate attributeName="opacity" from="0" to="0.9" dur="2s" begin="0.5s" fill="freeze" />
+  </image>
 
-  <!-- Tech Stack Pills -->
-  <g transform="translate(30, 500)">
-    <rect x="0" y="0" width="100" height="35" rx="17.5" fill="#3776AB" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="tagline-text.end+0.3s" fill="freeze" />
+  <!-- Left Panel Slide-in -->
+  <g transform="translate(-800, 0)">
+    <animateTransform attributeName="transform" type="translate" from="-800, 0" to="0, 0" dur="1.2s" begin="0s" fill="freeze" calcMode="spline" keySplines="0.1 0.8 0.2 1" />
+    
+    <rect x="50" y="50" width="700" height="640" rx="15" fill="#FFFFFF" stroke="#BAE6FD" stroke-width="2" />
+    
+    <!-- Title Section -->
+    <text x="100" y="150" class="title-text">MUHAMMED FADHIL</text>
+    <rect x="100" y="180" width="100" height="4" fill="#0EA5E9">
+      <animate attributeName="width" from="0" to="400" dur="1s" begin="1.5s" fill="freeze" calcMode="spline" keySplines="0.2 0 0.2 1" />
     </rect>
-    <text x="50" y="23" class="pill-text">Python</text>
-    <rect x="110" y="0" width="100" height="35" rx="17.5" fill="#092E20" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="tagline-text.end+0.4s" fill="freeze" />
-    </rect>
-    <text x="160" y="23" class="pill-text">Django</text>
-    <rect x="220" y="0" width="130" height="35" rx="17.5" fill="#F7DF1E" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="tagline-text.end+0.5s" fill="freeze" />
-    </rect>
-    <text x="285" y="23" class="pill-text" fill="#000000">JavaScript</text>
-    <rect x="360" y="0" width="100" height="35" rx="17.5" fill="#316192" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="tagline-text.end+0.6s" fill="freeze" />
-    </rect>
-    <text x="410" y="23" class="pill-text">PostgreSQL</text>
-    <rect x="470" y="0" width="100" height="35" rx="17.5" fill="#009639" opacity="0">
-      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="tagline-text.end+0.7s" fill="freeze" />
-    </rect>
-    <text x="520" y="23" class="pill-text">Nginx</text>
-  </g>
 
-  <!-- About Me Lines -->
-  <text x="30" y="600" class="about-me-text">
-    <tspan>CS student @ JCT College of Eng. &amp; Tech.</tspan>
-    <tspan x="30" y="625">Building high-impact solutions with scalable architectures.</tspan>
-    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="pill-text.end+0.5s" fill="freeze" />
-  </text>
+    <!-- Role Section -->
+    <text x="100" y="240" class="role-text">FULL-STACK DEVELOPER</text>
+    <text x="100" y="280" class="role-text" fill="#38BDF8">PYTHON / DJANGO SPECIALIST</text>
 
-  <!-- Stats Bar -->
-  <g transform="translate(1180, 50)">
-    <text x="0" y="0" class="stats-text" opacity="0">COMMITS: 512
-      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="role3Light.end" fill="freeze" />
-    </text>
-    <rect x="-200" y="10" width="200" height="15" rx="7.5" fill="#E5E7EB" />
-    <rect x="-200" y="10" width="0" height="15" rx="7.5" fill="#DB2777">
-      <animate attributeName="width" from="0" to="180" dur="1.5s" begin="role3Light.end+0.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" />
-    </rect>
-  </g>
+    <!-- Tech Stack Hexagons -->
+    <g transform="translate(100, 350)">
+      <path d="M25 0 L75 0 L100 43.3 L75 86.6 L25 86.6 L0 43.3 Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+      <text x="50" y="50" class="skill-pill">PY</text>
+      <path d="M135 0 L185 0 L210 43.3 L185 86.6 L135 86.6 L110 43.3 Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+      <text x="160" y="50" class="skill-pill">DJ</text>
+      <path d="M245 0 L295 0 L320 43.3 L295 86.6 L245 86.6 L220 43.3 Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+      <text x="270" y="50" class="skill-pill">JS</text>
+      <path d="M80 95 L130 95 L155 138.3 L130 181.6 L80 181.6 L55 138.3 Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+      <text x="105" y="145" class="skill-pill">VPS</text>
+      <path d="M190 95 L240 95 L265 138.3 L240 181.6 L190 181.6 L165 138.3 Z" fill="#E0F2FE" stroke="#0284C7" stroke-width="2"/>
+      <text x="215" y="145" class="skill-pill">SQL</text>
+    </g>
 
-  <!-- Code Editor Card & Typing snippet -->
-  <g transform="translate(700, 480)">
-    <rect width="550" height="230" rx="15" fill="#FFFFFF" stroke="#E5E7EB" />
-    <circle cx="20" cy="20" r="6" fill="#EF4444"/>
-    <circle cx="40" cy="20" r="6" fill="#FBBF24"/>
-    <circle cx="60" cy="20" r="6" fill="#22C55E"/>
-    <text x="20" y="55" class="code-snippet-text" id="code1Light">
-      <tspan>const buildDreams = () => {</tspan>
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="tagline-text.end+1s" fill="freeze" />
-    </text>
-    <text x="40" y="80" class="code-snippet-text" id="code2Light">
-      <tspan>  while (coding) {</tspan>
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code1Light.end+0.2s" fill="freeze" />
-    </text>
-    <text x="60" y="105" class="code-snippet-text" id="code3Light">
-      <tspan>    integrate("scalableSolutions");</tspan>
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code2Light.end+0.2s" fill="freeze" />
-    </text>
-    <text x="60" y="130" class="code-snippet-text" id="code4Light">
-      <tspan>    optimize("performance");</tspan>
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code3Light.end+0.2s" fill="freeze" />
-    </text>
-    <text x="60" y="155" class="code-snippet-text" id="code5Light">
-      <tspan>    if (issueFound) solveIt();</tspan>
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code4Light.end+0.2s" fill="freeze" />
-    </text>
-    <text x="40" y="180" class="code-snippet-text" id="code6Light">
-      <tspan>  }</tspan>
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code5Light.end+0.2s" fill="freeze" />
-    </text>
-    <text x="20" y="205" class="code-snippet-text" id="code7Light">
-      <tspan>}</tspan>
-      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code6Light.end+0.2s" fill="freeze" />
-    </text>
-  </g>
-
-  <!-- Script Text -->
-  <g transform="translate(640, 230)">
-    <text x="0" y="0" class="neon-script">
-      <tspan>KEEP CODING KEEP GROWING</tspan>
-      <animate attributeName="opacity" values="0; 1; 1; 1" dur="1s" begin="role3Light.end+1s" fill="freeze" />
-    </text>
+    <!-- Server Status Code Block -->
+    <g transform="translate(100, 560)">
+      <text class="mono-text" y="0">> System.init()</text>
+      <text class="mono-text" y="25">> Architecture: <tspan class="highlight">Decoupled</tspan></text>
+      <text class="mono-text" y="50">> Deployment: <tspan class="highlight">Nginx / Cloudflare</tspan></text>
+      <text class="mono-text" y="75">> Status: <tspan class="highlight">ONLINE &amp; SCALING</tspan></text>
+      <rect x="220" y="60" width="10" height="20" fill="#0284C7">
+        <animate attributeName="opacity" values="0;1;0" dur="1s" repeatCount="indefinite" />
+      </rect>
+    </g>
   </g>
 </svg>
