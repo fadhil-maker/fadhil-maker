@@ -125,7 +125,7 @@
 </g>
 
 <!-- Cycling roles -->
-<text clip-path="url(#r1)" x="48" y="255" font-size="19" font-family="'Consolas', monospace" fill="#3b82f6" filter="url(#glow)">&lt; Senior Full-Stack Engineer /&gt;</text>
+<text clip-path="url(#r1)" x="48" y="255" font-size="19" font-family="'Consolas', monospace" fill="#3b82f6" filter="url(#glow)">&lt; Full-Stack Engineer /&gt;</text>
 <text clip-path="url(#r2)" x="48" y="255" font-size="19" font-family="'Consolas', monospace" fill="#3b82f6" filter="url(#glow)">&lt; Python &amp; Django Expert /&gt;</text>
 <text clip-path="url(#r3)" x="48" y="255" font-size="19" font-family="'Consolas', monospace" fill="#3b82f6" filter="url(#glow)">&lt; System Architect /&gt;</text>
 <text clip-path="url(#r4)" x="48" y="255" font-size="19" font-family="'Consolas', monospace" fill="#3b82f6" filter="url(#glow)">&lt; Open Source Contributor /&gt;</text>
@@ -200,7 +200,7 @@
     <circle cx="12" cy="12" r="4.6" fill="none" stroke="#475569" stroke-width="2"/>
     <circle cx="18.2" cy="5.8" r="1.5" fill="#475569"/>
   </g>
-  <text x="376" y="707" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#475569">._fadhiluu_.</text>
+  <text x="376" y="707" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#475569">_.fadhiluu._</text>
 
   <!-- Portfolio / Vercel Link -->
   <g transform="translate(470,692) scale(.8)">
