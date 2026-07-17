@@ -1,64 +1,67 @@
-<div align="center">
+<h1 align="center">Hi 👋, I'm Muhammed Fadhil</h1>
+<h3 align="center">Full-Stack Web Developer | Python & Django Enthusiast</h3>
 
-# Muhammed Fadhil EH
-
-**B.Tech Computer Science & Business Systems Student &nbsp;|&nbsp; Python/Django Developer**
-
-📍 Thrissur, Kerala, India &nbsp;·&nbsp; 📧 [Fadhileh12@gmail.com](mailto:Fadhileh12@gmail.com) &nbsp;·&nbsp; 🔗 [LinkedIn](https://www.linkedin.com/in/fadhileh) &nbsp;·&nbsp; 🌐 [Portfolio](https://muhammedfadhil.vercel.app)
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
-</div>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Full-Stack+Web+Developer;Python+%26+Django+Specialist;Data+Science+Enthusiast;Building+Scalable+Solutions" alt="Typing SVG" />
+</p>
 
 ---
 
-### About
+## 👨‍💻 About Me
 
-I'm a Computer Science student who builds practical, full-stack solutions with Python and Django. My focus is on replacing manual, error-prone workflows with reliable software — most recently an appointment booking platform that cut a shop's wait times through automated scheduling. I'm currently deepening my skills in data science and machine learning to bring an analytical edge to the products I build.
-
-### Skills
-
-| Category | Skills |
-|---|---|
-| **Languages** | Python, HTML5, CSS3, JavaScript |
-| **Frameworks** | Django |
-| **Tools & Infra** | Git, GitHub, Cloudflare |
-| **Other** | Database Management, Web Infrastructure |
-
-### Experience
-
-**Cyborg AI Gen Automation** — Intern, Data Science & Machine Learning
-- Implemented predictive modeling techniques on real-world datasets
-- Performed data analysis to support model development and generate actionable insights
-
-### Projects
-
-**Appointment Booking System — ShanuDigiCore**
-`Python` · `Django` · `HTML` · `CSS` · `JavaScript`
-- Built a customer-facing booking platform enabling remote scheduling and eliminating the need for in-person visits
-- Automated the booking workflow, improving operational efficiency and cutting shop wait times
-
-### Education
-
-| Institution | Program | Year | Score |
-|---|---|---|---|
-| JCT College of Engineering and Technology | B.Tech CS with Business Systems (pursuing) | Ongoing | — |
-| St. Aloysius Higher Secondary School | Electronic Science | 2021–2023 | 90% |
-| Lourde Matha EMHSS, Cherpu | SSLC | 2021 | 95% |
-
-### Certifications
-
-- Python-Django — Kerala State Rutronix
+* 🎓 I am currently pursuing a B.Tech in Computer Science with Business Systems at JCT College of Engineering and Technology (2023-2027). <!--[cite: 1] -->
+* 💻 I specialize in full-stack web development using Python/Django, HTML5, and CSS3. <!--[cite: 1] -->
+* ⚙️ I have hands-on experience managing web infrastructure, including VPS, Nginx, and Cloudflare. <!--[cite: 1] -->
+* 🧠 I previously worked as a Data Science and Machine Learning Intern at Cyborg AI Gen Automation, where I implemented predictive modeling techniques. <!--[cite: 1] -->
+* 🚀 I am currently building scalable applications like the Global Drug Interaction & Side Effect Tracking System using Django and openFDA APIs. <!--[cite: 1] -->
+* 🌐 Check out my portfolio: [Muhammedfadhil.vercel.app](https://Muhammedfadhil.vercel.app)
 
 ---
 
-<div align="center">
+## 🛠️ Tech Stack
 
-<sub>Currently learning: Data Science · Machine Learning · Advanced Django</sub>
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+</p>
+<p align="center">
+  <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+</p>
 
-</div>
+---
+
+## 📊 GitHub Analytics
+
+<p align="center">
+  <a href="https://github.com/fadhil-maker">
+    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=fadhil-maker&show_icons=true&theme=tokyonight&hide_border=true&bg_color=1A1B27" alt="Fadhil's GitHub Stats" />
+  </a>
+  <a href="https://github.com/fadhil-maker">
+    <img height="180em" src="https://github-readme-streak-stats.herokuapp.com/?user=fadhil-maker&theme=tokyonight&hide_border=true&background=1A1B27" alt="Fadhil's GitHub Streak" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/fadhil-maker">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=fadhil-maker&layout=compact&theme=tokyonight&hide_border=true&bg_color=1A1B27" alt="Top Languages" />
+  </a>
+</p>
+
+---
+
+## 📫 Let's Connect
+
+<p align="center">
+  <a href="mailto:Fadhileh12@gmail.com">
+    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /> <!--[cite: 1] -->
+  </a>
+  <a href="https://linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
