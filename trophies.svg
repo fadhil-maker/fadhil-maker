@@ -102,138 +102,126 @@
     <line class="cell-divider" x1="666.6" y1="15" x2="666.6" y2="165" stroke="#7c3aed" stroke-width="0.5"/>
 
     <!-- ========== TROPHY 1: Commits — Rank A (amber) ========== -->
-    <g class="trophy-cell trophy-1" transform="translate(66.65, 90)">
-      <!-- Trophy cup shape -->
-      <g class="rank-a">
-        <!-- Cup body -->
-        <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z"
-              fill="url(#amberTrophy)" opacity="0.95"/>
-        <!-- Left handle -->
-        <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <!-- Right handle -->
-        <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <!-- Stem -->
-        <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#f59e0b" opacity="0.8"/>
-        <!-- Base -->
-        <rect x="-10" y="16" width="20" height="4" rx="2" fill="#f59e0b" opacity="0.7"/>
-        <!-- Star on cup -->
-        <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+    <g transform="translate(66.65, 90)">
+      <g class="trophy-cell trophy-1">
+        <!-- Trophy cup shape -->
+        <g class="rank-a">
+          <!-- Cup body -->
+          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#amberTrophy)" opacity="0.95"/>
+          <!-- Left handle -->
+          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <!-- Right handle -->
+          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <!-- Stem -->
+          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#f59e0b" opacity="0.8"/>
+          <!-- Base -->
+          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#f59e0b" opacity="0.7"/>
+          <!-- Star on cup -->
+          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+        </g>
+        <!-- Rank badge -->
+        <g transform="translate(0, 36)">
+          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.4"/>
+          <text x="0" y="4" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="800">A</text>
+        </g>
+        <!-- Category -->
+        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Commits</text>
       </g>
-      <!-- Rank badge -->
-      <g transform="translate(0, 36)">
-        <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#f59e0b" fill-opacity="0.15"
-              stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.4"/>
-        <text x="0" y="4" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="800">A</text>
-      </g>
-      <!-- Category -->
-      <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Commits</text>
     </g>
 
     <!-- ========== TROPHY 2: Stars — Rank B (violet) ========== -->
-    <g class="trophy-cell trophy-2" transform="translate(199.95, 90)">
-      <g>
-        <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z"
-              fill="url(#violetTrophy)" opacity="0.95"/>
-        <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#a855f7" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#a855f7" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#a855f7" opacity="0.8"/>
-        <rect x="-10" y="16" width="20" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
-        <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+    <g transform="translate(199.95, 90)">
+      <g class="trophy-cell trophy-2">
+        <g>
+          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#violetTrophy)" opacity="0.95"/>
+          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#a855f7" opacity="0.8"/>
+          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
+          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+        </g>
+        <g transform="translate(0, 36)">
+          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
+          <text x="0" y="4" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="800">B</text>
+        </g>
+        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Stars</text>
       </g>
-      <g transform="translate(0, 36)">
-        <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#a855f7" fill-opacity="0.15"
-              stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
-        <text x="0" y="4" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="800">B</text>
-      </g>
-      <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Stars</text>
     </g>
 
     <!-- ========== TROPHY 3: Repositories — Rank A (amber) ========== -->
-    <g class="trophy-cell trophy-3" transform="translate(333.25, 90)">
-      <g class="rank-a">
-        <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z"
-              fill="url(#amberTrophy)" opacity="0.95"/>
-        <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#f59e0b" opacity="0.8"/>
-        <rect x="-10" y="16" width="20" height="4" rx="2" fill="#f59e0b" opacity="0.7"/>
-        <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+    <g transform="translate(333.25, 90)">
+      <g class="trophy-cell trophy-3">
+        <g class="rank-a">
+          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#amberTrophy)" opacity="0.95"/>
+          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#f59e0b" opacity="0.8"/>
+          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#f59e0b" opacity="0.7"/>
+          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+        </g>
+        <g transform="translate(0, 36)">
+          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.4"/>
+          <text x="0" y="4" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="800">A</text>
+        </g>
+        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Repos</text>
       </g>
-      <g transform="translate(0, 36)">
-        <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#f59e0b" fill-opacity="0.15"
-              stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.4"/>
-        <text x="0" y="4" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="800">A</text>
-      </g>
-      <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Repos</text>
     </g>
 
     <!-- ========== TROPHY 4: PRs — Rank B (violet) ========== -->
-    <g class="trophy-cell trophy-4" transform="translate(466.55, 90)">
-      <g>
-        <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z"
-              fill="url(#violetTrophy)" opacity="0.95"/>
-        <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#a855f7" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#a855f7" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#a855f7" opacity="0.8"/>
-        <rect x="-10" y="16" width="20" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
-        <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+    <g transform="translate(466.55, 90)">
+      <g class="trophy-cell trophy-4">
+        <g>
+          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#violetTrophy)" opacity="0.95"/>
+          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#a855f7" opacity="0.8"/>
+          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
+          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+        </g>
+        <g transform="translate(0, 36)">
+          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
+          <text x="0" y="4" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="800">B</text>
+        </g>
+        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">PRs</text>
       </g>
-      <g transform="translate(0, 36)">
-        <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#a855f7" fill-opacity="0.15"
-              stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
-        <text x="0" y="4" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="800">B</text>
-      </g>
-      <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">PRs</text>
     </g>
 
     <!-- ========== TROPHY 5: Issues — Rank B (violet) ========== -->
-    <g class="trophy-cell trophy-5" transform="translate(599.85, 90)">
-      <g>
-        <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z"
-              fill="url(#violetTrophy)" opacity="0.95"/>
-        <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#a855f7" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#a855f7" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.7"/>
-        <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#a855f7" opacity="0.8"/>
-        <rect x="-10" y="16" width="20" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
-        <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+    <g transform="translate(599.85, 90)">
+      <g class="trophy-cell trophy-5">
+        <g>
+          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#violetTrophy)" opacity="0.95"/>
+          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#a855f7" opacity="0.8"/>
+          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
+          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
+        </g>
+        <g transform="translate(0, 36)">
+          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
+          <text x="0" y="4" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="800">B</text>
+        </g>
+        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Issues</text>
       </g>
-      <g transform="translate(0, 36)">
-        <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#a855f7" fill-opacity="0.15"
-              stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
-        <text x="0" y="4" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="800">B</text>
-      </g>
-      <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Issues</text>
     </g>
 
     <!-- ========== TROPHY 6: Followers — Rank C (grey) ========== -->
-    <g class="trophy-cell trophy-6" transform="translate(733.15, 90)">
-      <g>
-        <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z"
-              fill="url(#greyTrophy)" opacity="0.8"/>
-        <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#6b7280" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.5"/>
-        <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#6b7280" stroke-width="2.5"
-              stroke-linecap="round" opacity="0.5"/>
-        <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#6b7280" opacity="0.6"/>
-        <rect x="-10" y="16" width="20" height="4" rx="2" fill="#6b7280" opacity="0.5"/>
-        <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800" opacity="0.6">★</text>
+    <g transform="translate(733.15, 90)">
+      <g class="trophy-cell trophy-6">
+        <g>
+          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#greyTrophy)" opacity="0.8"/>
+          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#6b7280" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#6b7280" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
+          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#6b7280" opacity="0.6"/>
+          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#6b7280" opacity="0.5"/>
+          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800" opacity="0.6">★</text>
+        </g>
+        <g transform="translate(0, 36)">
+          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#6b7280" fill-opacity="0.12" stroke="#6b7280" stroke-width="0.8" stroke-opacity="0.3"/>
+          <text x="0" y="4" text-anchor="middle" fill="#6b7280" font-size="11" font-weight="800">C</text>
+        </g>
+        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600" opacity="0.7">Followers</text>
       </g>
-      <g transform="translate(0, 36)">
-        <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#6b7280" fill-opacity="0.12"
-              stroke="#6b7280" stroke-width="0.8" stroke-opacity="0.3"/>
-        <text x="0" y="4" text-anchor="middle" fill="#6b7280" font-size="11" font-weight="800">C</text>
-      </g>
-      <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600" opacity="0.7">Followers</text>
     </g>
 
     <!-- ===== Shine sweep overlay ===== -->
