@@ -4,9 +4,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=5">
-    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=5">
-    <img alt="Animated GitHub Banner" src="banner.svg?v=5" width="1280">
+    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=6">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=6">
+    <img alt="Animated GitHub Banner" src="banner.svg?v=6" width="1280">
   </picture>
 </p>
 
