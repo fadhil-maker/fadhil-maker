@@ -117,5 +117,48 @@ def main():
     generate_langs_svg(langs_param)
     generate_trophies_svg(total_stars, total_commits, repos_count, followers)
     
+    # ---------------------------------------------------------
+    # UPDATE BANNER.SVG AND BANNER-LIGHT.SVG
+    # ---------------------------------------------------------
+    import re
+    import time
+    
+    def update_banner(filename):
+        if not os.path.exists(filename): return
+        with open(filename, 'r', encoding='utf-8') as f:
+            content = f.read()
+            
+        # Repos (x=118)
+        content = re.sub(r'(<text class="st" x="118"[^>]*>)(.*?)(</text>)', r'\g<1>' + s_repos + r'\g<3>', content)
+        # Commits (x=258)
+        content = re.sub(r'(<text class="st" x="258"[^>]*>)(.*?)(</text>)', r'\g<1>' + s_commits + r'\g<3>', content)
+        # Stars (x=398)
+        content = re.sub(r'(<text class="st" x="398"[^>]*>)(.*?)(</text>)', r'\g<1>' + s_stars + r'\g<3>', content)
+        # Followers (x=538)
+        content = re.sub(r'(<text class="st" x="538"[^>]*>)(.*?)(</text>)', r'\g<1>' + s_followers + r'\g<3>', content)
+        
+        with open(filename, 'w', encoding='utf-8') as f:
+            f.write(content)
+        print(f"Updated {filename}")
+
+    update_banner('banner.svg')
+    update_banner('banner-light.svg')
+
+    # ---------------------------------------------------------
+    # UPDATE README CACHE BUSTERS
+    # ---------------------------------------------------------
+    readme_path = 'README.md'
+    if os.path.exists(readme_path):
+        with open(readme_path, 'r', encoding='utf-8') as f:
+            readme = f.read()
+        
+        # Replace ?v=... with a new timestamp
+        timestamp = str(int(time.time()))
+        readme = re.sub(r'(\.svg\?v=)\w+', r'\g<1>' + timestamp, readme)
+        
+        with open(readme_path, 'w', encoding='utf-8') as f:
+            f.write(readme)
+        print("Updated README.md cache busters.")
+
 if __name__ == "__main__":
     main()

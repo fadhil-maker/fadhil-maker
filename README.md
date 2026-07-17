@@ -4,9 +4,9 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=8">
-    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=8">
-    <img alt="Animated GitHub Banner" src="banner.svg?v=8" width="1280">
+    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=1784315346">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=1784315346">
+    <img alt="Animated GitHub Banner" src="banner.svg?v=1784315346" width="1280">
   </picture>
 </p>
 
@@ -15,7 +15,7 @@
 <table width="100%" style="border: none;">
   <tr style="border: none;">
     <td width="35%" align="center" style="border: none;">
-      <img alt="Swinging Lanyard ID Badge" src="lanyard.svg?v=5" width="280">
+      <img alt="Swinging Lanyard ID Badge" src="lanyard.svg?v=1784315346" width="280">
     </td>
     <td width="65%" valign="top" style="border: none;">
       <h3>🚀 Key Projects</h3>
@@ -62,9 +62,9 @@
 <h3 align="center">📊 GitHub Stats & Graphs</h3>
 
 <p align="center">
-  <img src="stats.svg?v=3" alt="GitHub Stats" height="180" />
+  <img src="stats.svg?v=1784315346" alt="GitHub Stats" height="180" />
   &nbsp;&nbsp;
-  <img src="langs.svg?v=3" alt="Top Languages" height="180" />
+  <img src="langs.svg?v=1784315346" alt="Top Languages" height="180" />
 </p>
 
 <p align="center">
@@ -80,7 +80,7 @@
 </p>
 
 <p align="center">
-  <img src="trophies.svg?v=3" alt="GitHub Trophies" width="800" />
+  <img src="trophies.svg?v=1784315346" alt="GitHub Trophies" width="800" />
 </p>
 
 <br/>
