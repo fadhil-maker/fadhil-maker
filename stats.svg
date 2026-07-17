@@ -123,39 +123,44 @@
 
     <!-- ============ STAT ROWS (right side) ============ -->
     <!-- Row 1: Stars -->
-    <g class="stat-row stat-row-1" transform="translate(155, 56)">
-      <text x="0" y="0" font-size="13">⭐</text>
-      <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Total Stars:</text>
-      <text class="stat-val-1" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700"
-            text-anchor="end">5</text>
+    <g transform="translate(155, 56)">
+      <g class="stat-row stat-row-1">
+        <text x="0" y="0" font-size="13">⭐</text>
+        <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Total Stars:</text>
+        <text class="stat-val-1" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700" text-anchor="end">5</text>
+      </g>
     </g>
     <!-- Row 2: Commits -->
-    <g class="stat-row stat-row-2" transform="translate(155, 82)">
-      <text x="0" y="0" font-size="13">🔥</text>
-      <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Total Commits:</text>
-      <text class="stat-val-2" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700"
-            text-anchor="end">120+</text>
+    <g transform="translate(155, 82)">
+      <g class="stat-row stat-row-2">
+        <text x="0" y="0" font-size="13">🔥</text>
+        <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Total Commits:</text>
+        <text class="stat-val-2" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700" text-anchor="end">120+</text>
+      </g>
     </g>
     <!-- Row 3: PRs -->
-    <g class="stat-row stat-row-3" transform="translate(155, 108)">
-      <text x="0" y="0" font-size="13">🔀</text>
-      <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Pull Requests:</text>
-      <text class="stat-val-3" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700"
-            text-anchor="end">8</text>
+    <g transform="translate(155, 108)">
+      <g class="stat-row stat-row-3">
+        <text x="0" y="0" font-size="13">🔀</text>
+        <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Pull Requests:</text>
+        <text class="stat-val-3" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700" text-anchor="end">8</text>
+      </g>
     </g>
     <!-- Row 4: Issues -->
-    <g class="stat-row stat-row-4" transform="translate(155, 134)">
-      <text x="0" y="0" font-size="13">📋</text>
-      <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Issues:</text>
-      <text class="stat-val-4" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700"
-            text-anchor="end">12</text>
+    <g transform="translate(155, 134)">
+      <g class="stat-row stat-row-4">
+        <text x="0" y="0" font-size="13">📋</text>
+        <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Issues:</text>
+        <text class="stat-val-4" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700" text-anchor="end">12</text>
+      </g>
     </g>
     <!-- Row 5: Contributed to -->
-    <g class="stat-row stat-row-5" transform="translate(155, 160)">
-      <text x="0" y="0" font-size="13">🏗️</text>
-      <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Contributed to:</text>
-      <text class="stat-val-5" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700"
-            text-anchor="end">4</text>
+    <g transform="translate(155, 160)">
+      <g class="stat-row stat-row-5">
+        <text x="0" y="0" font-size="13">🏗️</text>
+        <text x="22" y="0" fill="#8b8ba7" font-size="12.5" font-weight="400">Contributed to:</text>
+        <text class="stat-val-5" x="310" y="0" fill="#f0eef6" font-size="13" font-weight="700" text-anchor="end">4</text>
+      </g>
     </g>
 
     <!-- Subtle bottom separator line -->
