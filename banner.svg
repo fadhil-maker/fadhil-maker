@@ -200,7 +200,7 @@
     <circle cx="12" cy="12" r="4.6" fill="none" stroke="#94a3b8" stroke-width="2"/>
     <circle cx="18.2" cy="5.8" r="1.5" fill="#94a3b8"/>
   </g>
-  <text x="376" y="707" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">._fadhiluu_.</text>
+  <text x="376" y="707" font-family="'Segoe UI', sans-serif" font-size="12.5" fill="#94a3b8">_.fadhiluu._</text>
 
   <!-- Portfolio / Vercel Link -->
   <g transform="translate(470,692) scale(.8)">
