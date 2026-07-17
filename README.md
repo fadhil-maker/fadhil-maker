@@ -64,7 +64,7 @@
 <p align="center">
   <img src="stats.svg?v=2" alt="GitHub Stats" height="180" />
   &nbsp;&nbsp;
-  <img src="langs.svg?v=2" alt="Top Languages" height="180" />
+  <img src="langs.svg?v=3" alt="Top Languages" height="180" />
 </p>
 
 <p align="center">
