@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/30133630/README.md)
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=30&pause=1000&color=F59E0B&center=true&vCenter=true&random=false&width=850&lines=Hey+%F0%9F%91%8B%2C+I'm+Muhammed+Fadhil;Full-Stack+Developer;Python+%7C+Django+Specialist;Building+things+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
 </h1>
