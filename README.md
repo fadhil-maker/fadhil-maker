@@ -103,8 +103,11 @@
   <a href="mailto:Fadhileh12@gmail.com">
     <img src="https://img.shields.io/badge/Email-F59E0B?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>&nbsp;
-  <a href="https://linkedin.com/in/muhammedfadhileh">
+  <a href="https://www.linkedin.com/in/fadhileh">
     <img src="https://img.shields.io/badge/LinkedIn-7C3AED?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>&nbsp;
+  <a href="https://www.instagram.com/_.fadhiluu._">
+    <img src="https://img.shields.io/badge/Instagram-06B6D4?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>&nbsp;
   <a href="https://Muhammedfadhil.vercel.app">
     <img src="https://img.shields.io/badge/Portfolio-F59E0B?style=for-the-badge&logo=vercel&logoColor=white" />
