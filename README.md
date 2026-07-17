@@ -4,14 +4,10 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=7">
-    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=7">
-    <img alt="Animated GitHub Banner" src="banner.svg?v=7" width="1280">
+    <source media="(prefers-color-scheme: dark)" srcset="banner.svg?v=8">
+    <source media="(prefers-color-scheme: light)" srcset="banner-light.svg?v=8">
+    <img alt="Animated GitHub Banner" src="banner.svg?v=8" width="1280">
   </picture>
-</p>
-
-<p align="center">
-  <img alt="Animated Developer ID Card" src="id-card.svg?v=1" width="420">
 </p>
 
 <br/>
