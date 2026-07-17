@@ -139,12 +139,11 @@
       <g filter="url(#avatarGlow)">
         <circle class="avatar-ring" cx="200" cy="275" r="48" fill="none" stroke="url(#avatarRing)" stroke-width="3" />
       </g>
+      <clipPath id="avatarClip">
+        <circle cx="200" cy="275" r="44" />
+      </clipPath>
       <circle cx="200" cy="275" r="44" fill="#1a1735" />
-      <!-- Stylized avatar silhouette -->
-      <circle cx="200" cy="263" r="14" fill="#8b8ba7" opacity="0.6" /> <!-- Head -->
-      <ellipse cx="200" cy="295" rx="20" ry="15" fill="#8b8ba7" opacity="0.4" /> <!-- Body -->
-      <!-- Code brackets overlay on avatar -->
-      <text x="200" y="280" text-anchor="middle" font-family="'Consolas', monospace" font-size="28" fill="#f59e0b" opacity="0.4">&lt;/&gt;</text>
+      <image x="156" y="231" width="88" height="88" href="converted-image.png" clip-path="url(#avatarClip)" />
 
       <!-- NAME -->
       <text x="200" y="350" text-anchor="middle" font-family="'Segoe UI', system-ui, sans-serif" font-size="22" font-weight="700" fill="#f0eef6">Muhammed Fadhil</text>
