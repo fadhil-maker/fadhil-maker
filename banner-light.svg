@@ -182,6 +182,79 @@
     <rect x="360" y="0" width="100" height="35" rx="17.5" fill="#316192" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="tagline-text.end+0.6s" fill="freeze" />
     </rect>
+    <text x="410" y="23" class="pill-text">PostgreSQL</text>
+    <rect x="470" y="0" width="100" height="35" rx="17.5" fill="#009639" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="tagline-text.end+0.7s" fill="freeze" />
+    </rect>
+    <text x="520" y="23" class="pill-text">Nginx</text>
+  </g>
+
+  <!-- About Me Lines -->
+  <text x="30" y="600" class="about-me-text">
+    <tspan>CS student @ JCT College of Eng. &amp; Tech.</tspan>
+    <tspan x="30" y="625">Building high-impact solutions with scalable architectures.</tspan>
+    <animate attributeName="opacity" from="0" to="1" dur="1s" begin="pill-text.end+0.5s" fill="freeze" />
+  </text>
+
+  <!-- Stats Bar -->
+  <g transform="translate(1180, 50)">
+    <text x="0" y="0" class="stats-text" opacity="0">COMMITS: 512
+      <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="role3Light.end" fill="freeze" />
+    </text>
+    <rect x="-200" y="10" width="200" height="15" rx="7.5" fill="#E5E7EB" />
+    <rect x="-200" y="10" width="0" height="15" rx="7.5" fill="#DB2777">
+      <animate attributeName="width" from="0" to="180" dur="1.5s" begin="role3Light.end+0.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1" />
+    </rect>
+  </g>
+
+  <!-- Code Editor Card & Typing snippet -->
+  <g transform="translate(700, 480)">
+    <rect width="550" height="230" rx="15" fill="#FFFFFF" stroke="#E5E7EB" />
+    <circle cx="20" cy="20" r="6" fill="#EF4444"/>
+    <circle cx="40" cy="20" r="6" fill="#FBBF24"/>
+    <circle cx="60" cy="20" r="6" fill="#22C55E"/>
+    <text x="20" y="55" class="code-snippet-text" id="code1Light">
+      <tspan>const buildDreams = () => {</tspan>
+      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="tagline-text.end+1s" fill="freeze" />
+    </text>
+    <text x="40" y="80" class="code-snippet-text" id="code2Light">
+      <tspan>  while (coding) {</tspan>
+      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code1Light.end+0.2s" fill="freeze" />
+    </text>
+    <text x="60" y="105" class="code-snippet-text" id="code3Light">
+      <tspan>    integrate("scalableSolutions");</tspan>
+      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code2Light.end+0.2s" fill="freeze" />
+    </text>
+    <text x="60" y="130" class="code-snippet-text" id="code4Light">
+      <tspan>    optimize("performance");</tspan>
+      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code3Light.end+0.2s" fill="freeze" />
+    </text>
+    <text x="60" y="155" class="code-snippet-text" id="code5Light">
+      <tspan>    if (issueFound) solveIt();</tspan>
+      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code4Light.end+0.2s" fill="freeze" />
+    </text>
+    <text x="40" y="180" class="code-snippet-text" id="code6Light">
+      <tspan>  }</tspan>
+      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code5Light.end+0.2s" fill="freeze" />
+    </text>
+    <text x="20" y="205" class="code-snippet-text" id="code7Light">
+      <tspan>}</tspan>
+      <animate attributeName="visibility" from="hidden" to="visible" dur="0.05s" begin="code6Light.end+0.2s" fill="freeze" />
+    </text>
+  </g>
+
+  <!-- Script Text -->
+  <g transform="translate(640, 230)">
+    <text x="0" y="0" class="neon-script">
+      <tspan>KEEP CODING KEEP GROWING</tspan>
+      <animate attributeName="opacity" values="0; 1; 1; 1" dur="1s" begin="role3Light.end+1s" fill="freeze" />
+    </text>
+  </g>
+  
+</svg>
+    <rect x="360" y="0" width="100" height="35" rx="17.5" fill="#316192" opacity="0">
+      <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="tagline-text.end+0.6s" fill="freeze" />
+    </rect>
     <text x="410" y="23" class="pill-text">PostgreSQL[cite: 1, 2]</text>
     <rect x="470" y="0" width="100" height="35" rx="17.5" fill="#009639" opacity="0">
       <animate attributeName="opacity" from="0" to="1" dur="0.3s" begin="tagline-text.end+0.7s" fill="freeze" />
