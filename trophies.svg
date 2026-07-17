@@ -1,233 +1,106 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 180" fill="none">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&amp;display=swap');
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1092 168" width="1092" height="168" role="img" aria-label="GitHub trophies">
+<defs><style><![CDATA[
 
-    /* ===== Card entrance ===== */
-    @keyframes cardFadeIn {
-      from { opacity: 0; transform: translateY(8px); }
-      to   { opacity: 1; transform: translateY(0); }
-    }
-    .card { animation: cardFadeIn 0.5s ease both; }
+text{font-family:'Segoe UI', system-ui, sans-serif}
+.title{font-family:'Orbitron', 'Segoe UI', sans-serif}
+@keyframes popCell{0%{opacity:0;transform:translateY(16px) scale(.85)}70%{opacity:1;transform:translateY(-3px) scale(1.03)}100%{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes rankGlow{0%,100%{opacity:.75;transform:scale(1)}50%{opacity:1;transform:scale(1.08)}}
+@keyframes shineX2{0%{transform:translateX(-200px) skewX(-15deg)}60%,100%{transform:translateX(1172px) skewX(-15deg)}}
+.cell{opacity:0;animation:popCell .55s cubic-bezier(.2,.8,.3,1.2) forwards;transform-box:fill-box;transform-origin:center}
+.rk{animation:rankGlow 2.2s ease-in-out infinite; transform-box:fill-box; transform-origin:center}
+.sh2{animation:shineX2 5s ease-in-out 2s infinite}
+]]></style>
+<linearGradient id="shg2" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#fff" stop-opacity="0"/><stop offset="50%" stop-color="#fff" stop-opacity=".07"/><stop offset="100%" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+  <stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#020617"/>
+</linearGradient>
+<clipPath id="tc"><rect x="0" y="0" width="1092" height="168" rx="14"/></clipPath>
+<filter id="glow"><feGaussianBlur stdDeviation="2.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
 
-    /* ===== Trophy pop-in ===== */
-    @keyframes trophyPop {
-      0%   { opacity: 0; transform: scale(0) rotate(-15deg); }
-      60%  { transform: scale(1.12) rotate(3deg); }
-      80%  { transform: scale(0.95) rotate(-1deg); }
-      100% { opacity: 1; transform: scale(1) rotate(0deg); }
-    }
-    .trophy-cell { opacity: 0; }
-    .trophy-1 { animation: trophyPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.3s both; }
-    .trophy-2 { animation: trophyPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.45s both; }
-    .trophy-3 { animation: trophyPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.6s both; }
-    .trophy-4 { animation: trophyPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.75s both; }
-    .trophy-5 { animation: trophyPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 0.9s both; }
-    .trophy-6 { animation: trophyPop 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) 1.05s both; }
-
-    /* ===== Shine sweep ===== */
-    @keyframes shineSweep {
-      0%   { transform: translateX(-200px); }
-      100% { transform: translateX(1000px); }
-    }
-    .shine-bar {
-      animation: shineSweep 3s ease-in-out 1.8s infinite;
-    }
-
-    /* ===== Rank badge pulse (A rank only) ===== */
-    @keyframes badgePulse {
-      0%, 100% { filter: drop-shadow(0 0 2px rgba(245,158,11,0.2)); }
-      50%      { filter: drop-shadow(0 0 6px rgba(245,158,11,0.5)); }
-    }
-    .rank-a { animation: badgePulse 2.5s ease-in-out 1.5s infinite; }
-
-    /* ===== Cell divider fade ===== */
-    @keyframes dividerFade {
-      from { opacity: 0; }
-      to   { opacity: 0.12; }
-    }
-    .cell-divider { opacity: 0; animation: dividerFade 0.4s ease 0.6s both; }
-
-    text { font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif; }
-  </style>
-
-  <defs>
-    <linearGradient id="cardBg" x1="0" y1="0" x2="800" y2="180" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#12102e"/>
-      <stop offset="100%" stop-color="#0d0b20"/>
-    </linearGradient>
-    <radialGradient id="innerGlow" cx="0.5" cy="0.1" r="0.9">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.04"/>
-      <stop offset="100%" stop-color="transparent" stop-opacity="0"/>
-    </radialGradient>
-    <!-- Shine gradient -->
-    <linearGradient id="shineGrad" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%"  stop-color="white" stop-opacity="0"/>
-      <stop offset="40%" stop-color="white" stop-opacity="0.06"/>
-      <stop offset="50%" stop-color="white" stop-opacity="0.1"/>
-      <stop offset="60%" stop-color="white" stop-opacity="0.06"/>
-      <stop offset="100%" stop-color="white" stop-opacity="0"/>
-    </linearGradient>
-    <!-- Amber trophy gradient -->
-    <linearGradient id="amberTrophy" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#fbbf24"/>
-      <stop offset="100%" stop-color="#f59e0b"/>
-    </linearGradient>
-    <!-- Violet trophy gradient -->
-    <linearGradient id="violetTrophy" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#c084fc"/>
-      <stop offset="100%" stop-color="#a855f7"/>
-    </linearGradient>
-    <!-- Grey trophy gradient -->
-    <linearGradient id="greyTrophy" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#9ca3af"/>
-      <stop offset="100%" stop-color="#6b7280"/>
-    </linearGradient>
-    <!-- Clip for shine -->
-    <clipPath id="cardClip">
-      <rect x="0" y="0" width="800" height="180" rx="12"/>
-    </clipPath>
-  </defs>
-
-  <g class="card">
-    <!-- Background -->
-    <rect x="0.5" y="0.5" width="799" height="179" rx="12" ry="12"
-          fill="url(#cardBg)" stroke="#7c3aed" stroke-opacity="0.3" stroke-width="1"/>
-    <rect x="1" y="1" width="798" height="178" rx="12" ry="12" fill="url(#innerGlow)"/>
-
-    <!-- Cell dividers (5 vertical lines) -->
-    <line class="cell-divider" x1="133.3" y1="15" x2="133.3" y2="165" stroke="#7c3aed" stroke-width="0.5"/>
-    <line class="cell-divider" x1="266.6" y1="15" x2="266.6" y2="165" stroke="#7c3aed" stroke-width="0.5"/>
-    <line class="cell-divider" x1="400"   y1="15" x2="400"   y2="165" stroke="#7c3aed" stroke-width="0.5"/>
-    <line class="cell-divider" x1="533.3" y1="15" x2="533.3" y2="165" stroke="#7c3aed" stroke-width="0.5"/>
-    <line class="cell-divider" x1="666.6" y1="15" x2="666.6" y2="165" stroke="#7c3aed" stroke-width="0.5"/>
-
-    <!-- ========== TROPHY 1: Commits — Rank A (amber) ========== -->
-    <g transform="translate(66.65, 90)">
-      <g class="trophy-cell trophy-1">
-        <!-- Trophy cup shape -->
-        <g class="rank-a">
-          <!-- Cup body -->
-          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#amberTrophy)" opacity="0.95"/>
-          <!-- Left handle -->
-          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <!-- Right handle -->
-          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <!-- Stem -->
-          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#f59e0b" opacity="0.8"/>
-          <!-- Base -->
-          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#f59e0b" opacity="0.7"/>
-          <!-- Star on cup -->
-          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
-        </g>
-        <!-- Rank badge -->
-        <g transform="translate(0, 36)">
-          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.4"/>
-          <text x="0" y="4" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="800">A</text>
-        </g>
-        <!-- Category -->
-        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Commits</text>
-      </g>
-    </g>
-
-    <!-- ========== TROPHY 2: Stars — Rank B (violet) ========== -->
-    <g transform="translate(199.95, 90)">
-      <g class="trophy-cell trophy-2">
-        <g>
-          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#violetTrophy)" opacity="0.95"/>
-          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#a855f7" opacity="0.8"/>
-          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
-          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
-        </g>
-        <g transform="translate(0, 36)">
-          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
-          <text x="0" y="4" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="800">B</text>
-        </g>
-        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Stars</text>
-      </g>
-    </g>
-
-    <!-- ========== TROPHY 3: Repositories — Rank A (amber) ========== -->
-    <g transform="translate(333.25, 90)">
-      <g class="trophy-cell trophy-3">
-        <g class="rank-a">
-          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#amberTrophy)" opacity="0.95"/>
-          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#f59e0b" opacity="0.8"/>
-          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#f59e0b" opacity="0.7"/>
-          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
-        </g>
-        <g transform="translate(0, 36)">
-          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.4"/>
-          <text x="0" y="4" text-anchor="middle" fill="#f59e0b" font-size="11" font-weight="800">A</text>
-        </g>
-        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Repos</text>
-      </g>
-    </g>
-
-    <!-- ========== TROPHY 4: PRs — Rank B (violet) ========== -->
-    <g transform="translate(466.55, 90)">
-      <g class="trophy-cell trophy-4">
-        <g>
-          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#violetTrophy)" opacity="0.95"/>
-          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#a855f7" opacity="0.8"/>
-          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
-          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
-        </g>
-        <g transform="translate(0, 36)">
-          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
-          <text x="0" y="4" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="800">B</text>
-        </g>
-        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">PRs</text>
-      </g>
-    </g>
-
-    <!-- ========== TROPHY 5: Issues — Rank B (violet) ========== -->
-    <g transform="translate(599.85, 90)">
-      <g class="trophy-cell trophy-5">
-        <g>
-          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#violetTrophy)" opacity="0.95"/>
-          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#a855f7" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
-          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#a855f7" opacity="0.8"/>
-          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#a855f7" opacity="0.7"/>
-          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800">★</text>
-        </g>
-        <g transform="translate(0, 36)">
-          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.4"/>
-          <text x="0" y="4" text-anchor="middle" fill="#a855f7" font-size="11" font-weight="800">B</text>
-        </g>
-        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600">Issues</text>
-      </g>
-    </g>
-
-    <!-- ========== TROPHY 6: Followers — Rank C (grey) ========== -->
-    <g transform="translate(733.15, 90)">
-      <g class="trophy-cell trophy-6">
-        <g>
-          <path d="M-16,-28 L16,-28 L12,-4 C11,2 6,6 0,8 C-6,6 -11,2 -12,-4 Z" fill="url(#greyTrophy)" opacity="0.8"/>
-          <path d="M-16,-24 C-24,-22 -24,-10 -16,-8" fill="none" stroke="#6b7280" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
-          <path d="M16,-24 C24,-22 24,-10 16,-8" fill="none" stroke="#6b7280" stroke-width="2.5" stroke-linecap="round" opacity="0.5"/>
-          <rect x="-2.5" y="8" width="5" height="8" rx="1" fill="#6b7280" opacity="0.6"/>
-          <rect x="-10" y="16" width="20" height="4" rx="2" fill="#6b7280" opacity="0.5"/>
-          <text x="0" y="-12" text-anchor="middle" fill="#0d0b20" font-size="10" font-weight="800" opacity="0.6">★</text>
-        </g>
-        <g transform="translate(0, 36)">
-          <rect x="-12" y="-8" width="24" height="16" rx="4" fill="#6b7280" fill-opacity="0.12" stroke="#6b7280" stroke-width="0.8" stroke-opacity="0.3"/>
-          <text x="0" y="4" text-anchor="middle" fill="#6b7280" font-size="11" font-weight="800">C</text>
-        </g>
-        <text x="0" y="60" text-anchor="middle" fill="#8b8ba7" font-size="10" font-weight="600" opacity="0.7">Followers</text>
-      </g>
-    </g>
-
-    <!-- ===== Shine sweep overlay ===== -->
-    <g clip-path="url(#cardClip)">
-      <rect class="shine-bar" x="-120" y="-20" width="120" height="220"
-            fill="url(#shineGrad)" transform="skewX(-15)"/>
-    </g>
+  <!-- Cell 1 -->
+  <g class="cell" style="animation-delay:0.30s">
+    <rect x="12" y="12" width="168" height="144" rx="14" fill="url(#bg)" stroke="#06b6d4" stroke-opacity=".7" stroke-width="1.5"/>
+    <text x="96.0" y="52" text-anchor="middle" font-size="30">⚙️</text>
+    <text class="rk title" x="164" y="40" text-anchor="end" font-size="24" font-weight="bold" fill="#06b6d4" filter="url(#glow)" style="animation-delay:0.70s">SSS</text>
+    <text class="rk title" x="164" y="40" text-anchor="end" font-size="24" font-weight="bold" fill="#f8fafc" style="animation-delay:0.70s">SSS</text>
+    <text x="96.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#f8fafc">Architect</text>
+    <text x="96.0" y="112" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="600">Full-Stack Dev</text>
+    <rect x="30" y="124" width="132" height="5" rx="2.5" fill="#1e293b"/>
+    <rect x="30" y="124" width="0" height="5" rx="2.5" fill="#06b6d4">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="0.60s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
   </g>
+  
+  <!-- Cell 2 -->
+  <g class="cell" style="animation-delay:0.48s">
+    <rect x="192" y="12" width="168" height="144" rx="14" fill="url(#bg)" stroke="#f59e0b" stroke-opacity=".7" stroke-width="1.5"/>
+    <text x="276.0" y="52" text-anchor="middle" font-size="30">🌟</text>
+    <text class="rk title" x="344" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#f59e0b" filter="url(#glow)" style="animation-delay:0.88s">S</text>
+    <text class="rk title" x="344" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#f8fafc" style="animation-delay:0.88s">S</text>
+    <text x="276.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#f8fafc">Open Source</text>
+    <text x="276.0" y="112" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="600">GitHub Badge</text>
+    <rect x="210" y="124" width="132" height="5" rx="2.5" fill="#1e293b"/>
+    <rect x="210" y="124" width="0" height="5" rx="2.5" fill="#f59e0b">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="0.78s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  
+  <!-- Cell 3 -->
+  <g class="cell" style="animation-delay:0.66s">
+    <rect x="372" y="12" width="168" height="144" rx="14" fill="url(#bg)" stroke="#3b82f6" stroke-opacity=".7" stroke-width="1.5"/>
+    <text x="456.0" y="52" text-anchor="middle" font-size="30">⭐</text>
+    <text class="rk title" x="524" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#3b82f6" filter="url(#glow)" style="animation-delay:1.06s">A</text>
+    <text class="rk title" x="524" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#f8fafc" style="animation-delay:1.06s">A</text>
+    <text x="456.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#f8fafc">Stargazer</text>
+    <text x="456.0" y="112" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="600">Stars 40+</text>
+    <rect x="390" y="124" width="132" height="5" rx="2.5" fill="#1e293b"/>
+    <rect x="390" y="124" width="0" height="5" rx="2.5" fill="#3b82f6">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="0.96s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  
+  <!-- Cell 4 -->
+  <g class="cell" style="animation-delay:0.84s">
+    <rect x="552" y="12" width="168" height="144" rx="14" fill="url(#bg)" stroke="#a855f7" stroke-opacity=".7" stroke-width="1.5"/>
+    <text x="636.0" y="52" text-anchor="middle" font-size="30">💜</text>
+    <text class="rk title" x="704" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#a855f7" filter="url(#glow)" style="animation-delay:1.24s">A</text>
+    <text class="rk title" x="704" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#f8fafc" style="animation-delay:1.24s">A</text>
+    <text x="636.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#f8fafc">Rising Star</text>
+    <text x="636.0" y="112" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="600">Followers 15+</text>
+    <rect x="570" y="124" width="132" height="5" rx="2.5" fill="#1e293b"/>
+    <rect x="570" y="124" width="0" height="5" rx="2.5" fill="#a855f7">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="1.14s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  
+  <!-- Cell 5 -->
+  <g class="cell" style="animation-delay:1.02s">
+    <rect x="732" y="12" width="168" height="144" rx="14" fill="url(#bg)" stroke="#10b981" stroke-opacity=".7" stroke-width="1.5"/>
+    <text x="816.0" y="52" text-anchor="middle" font-size="30">💻</text>
+    <text class="rk title" x="884" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#10b981" filter="url(#glow)" style="animation-delay:1.42s">S</text>
+    <text class="rk title" x="884" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#f8fafc" style="animation-delay:1.42s">S</text>
+    <text x="816.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#f8fafc">Committer</text>
+    <text x="816.0" y="112" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="600">Commits 1.2K+</text>
+    <rect x="750" y="124" width="132" height="5" rx="2.5" fill="#1e293b"/>
+    <rect x="750" y="124" width="0" height="5" rx="2.5" fill="#10b981">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="1.32s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  
+  <!-- Cell 6 -->
+  <g class="cell" style="animation-delay:1.20s">
+    <rect x="912" y="12" width="168" height="144" rx="14" fill="url(#bg)" stroke="#0ea5e9" stroke-opacity=".7" stroke-width="1.5"/>
+    <text x="996.0" y="52" text-anchor="middle" font-size="30">📦</text>
+    <text class="rk title" x="1064" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#0ea5e9" filter="url(#glow)" style="animation-delay:1.60s">S</text>
+    <text class="rk title" x="1064" y="40" text-anchor="end" font-size="28" font-weight="bold" fill="#f8fafc" style="animation-delay:1.60s">S</text>
+    <text x="996.0" y="90" text-anchor="middle" font-size="14" font-weight="bold" fill="#f8fafc">Creator</text>
+    <text x="996.0" y="112" text-anchor="middle" font-size="11" fill="#94a3b8" font-weight="600">Repos 25+</text>
+    <rect x="930" y="124" width="132" height="5" rx="2.5" fill="#1e293b"/>
+    <rect x="930" y="124" width="0" height="5" rx="2.5" fill="#0ea5e9">
+      <animate attributeName="width" from="0" to="132" dur="1s" begin="1.50s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
+    </rect>
+  </g>
+  
+<g clip-path="url(#tc)"><rect class="sh2" x="0" y="0" width="140" height="168" fill="url(#shg2)"/></g>
 </svg>

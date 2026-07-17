@@ -62,7 +62,7 @@
 <h3 align="center">📊 GitHub Stats & Graphs</h3>
 
 <p align="center">
-  <img src="stats.svg?v=2" alt="GitHub Stats" height="180" />
+  <img src="stats.svg?v=3" alt="GitHub Stats" height="180" />
   &nbsp;&nbsp;
   <img src="langs.svg?v=3" alt="Top Languages" height="180" />
 </p>
@@ -80,7 +80,7 @@
 </p>
 
 <p align="center">
-  <img src="trophies.svg?v=2" alt="GitHub Trophies" width="800" />
+  <img src="trophies.svg?v=3" alt="GitHub Trophies" width="800" />
 </p>
 
 <br/>
