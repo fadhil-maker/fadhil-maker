@@ -15,7 +15,7 @@
 <table width="100%" style="border: none;">
   <tr style="border: none;">
     <td width="35%" align="center" style="border: none;">
-      <img alt="Swinging Lanyard ID Badge" src="lanyard.svg?v=4" width="280">
+      <img alt="Swinging Lanyard ID Badge" src="lanyard.svg?v=5" width="280">
     </td>
     <td width="65%" valign="top" style="border: none;">
       <h3>🚀 Key Projects</h3>
