@@ -43,7 +43,7 @@ text{font-family:'Segoe UI', system-ui, sans-serif}
   <g class="row" style="animation-delay:0.72s">
     <text x="24" y="105" font-size="14">💻</text>
     <text x="52" y="105" font-size="13.5" fill="#e2e8f0" font-weight="600">Total Commits:</text>
-    <text x="316" y="105" text-anchor="end" font-size="14" font-weight="bold" fill="#06b6d4">1.2K</text>
+    <text x="316" y="105" text-anchor="end" font-size="14" font-weight="bold" fill="#06b6d4">73</text>
   </g>
   <g class="row" style="animation-delay:0.94s">
     <text x="24" y="136" font-size="14">📦</text>
@@ -69,8 +69,8 @@ text{font-family:'Segoe UI', system-ui, sans-serif}
     stroke-dasharray="290 326.7" stroke-dashoffset="290" transform="rotate(-90)">
     <animate attributeName="stroke-dashoffset" from="290" to="0" dur="1.6s" begin=".6s" fill="freeze" calcMode="spline" keySplines=".2 .8 .3 1"/>
   </circle>
-  <text class="rk title" y="16" text-anchor="middle" font-size="46" font-weight="bold" fill="#06b6d4" filter="url(#g)">S</text>
-  <text class="rk title" y="16" text-anchor="middle" font-size="46" font-weight="bold" fill="#f8fafc">S</text>
+  <text class="rk title" y="16" text-anchor="middle" font-size="46" font-weight="bold" fill="#06b6d4" filter="url(#g)">B</text>
+  <text class="rk title" y="16" text-anchor="middle" font-size="46" font-weight="bold" fill="#f8fafc">B</text>
   <text y="76" text-anchor="middle" font-size="10.5" fill="#94a3b8" opacity="0" font-weight="bold" letter-spacing="2" style="animation:fadeIn .5s ease 1.8s forwards">RANK</text>
 </g>
 
