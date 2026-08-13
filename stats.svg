@@ -53,7 +53,7 @@ text{font-family:'Segoe UI', system-ui, sans-serif}
   <g class="row" style="animation-delay:1.16s">
     <text x="24" y="167" font-size="14">👥</text>
     <text x="52" y="167" font-size="13.5" fill="#e2e8f0" font-weight="600">Followers:</text>
-    <text x="316" y="167" text-anchor="end" font-size="14" font-weight="bold" fill="#a855f7">2</text>
+    <text x="316" y="167" text-anchor="end" font-size="14" font-weight="bold" fill="#a855f7">3</text>
   </g>
   <g class="row" style="animation-delay:1.38s">
     <text x="24" y="198" font-size="14">🚀</text>
